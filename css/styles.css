@@ -5,13 +5,76 @@ body {
 
 #green_area {
     background: #43B060;
-    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+.color_area {
+    background: #F06E72;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 #green_area_text {
     margin-left: 5%;
+}
+
+/* fridge page */
+.btn {
+    background: #F06E72;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    font-size: 15px;
+}
+
+.list {
+    background: #F5F5F5;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* dish page */
+#color_area_dish {
+    background: #F06E72;
+}
+
+#food_heart_pics {
+    display: inline;
+}
+
+#heart_emoji {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dish_indented_text {
+    margin-left: 13px; 
+}
+
+/* #ingredients_substitutes {
+    display: flex;
+    justify-content: center;
+} */
+
+/* fridge page, food page */
+.colored_area_text {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
