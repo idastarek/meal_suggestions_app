@@ -3,6 +3,41 @@ body {
     margin:0px;
 }
 
+/* utility classes */
+.dotted-line {
+    border-bottom: 1px dotted #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* homepage */
+#homepage-items {
+    display: block;
+}
+
+#homepage-items ul {
+    list-style: none;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#homepage-items li {
+    border: 1px dotted #000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
 #green_area {
     background: #43B060;
     margin-left: 0px;
