@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in food</title>
-    <link rel="stylesheet" href="../css/styles.css"/>
+    <link rel="stylesheet" href="../css/fridge.css"/>
+    <!-- linking fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="colored_area_text">
+    <div id="container">
+        <div id="color-area">
             <h1>I currently have...</h1>
+            <form>
+                <input type="text" name="ingredient-input" id="ingredient-input" placeholder="Log in your food here" />
+                <input type="submit" id="ingredient-submit" value="Add ingredient" />
+            </form>
         </div>
-        <form>
-            <input type="text" name="ingredient-input" id="ingredient-input" placeholder="Log in your food here" />
-            <input type="submit" id="ingredient-submit" value="Add ingredient" />
-        </form>
-    </header>
-    <main>
         <section class="ingredients-list">
             <div id="ingredients">
-
             </div>
         </section>
-    </main>
-    <button class="btn">Get recipes!</button>
+        <button id="btn">Get recipes!</button>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

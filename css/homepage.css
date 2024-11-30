@@ -13,10 +13,14 @@ html, body {
 
 /* top of the screen */
 #color-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: #43B060;
     margin: 0;
     padding: 30px 0 10px 30px;
     color: #ffffff;
+    min-height: 25vh;
 }
 
 h1 {
