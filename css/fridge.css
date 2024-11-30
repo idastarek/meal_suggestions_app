@@ -32,10 +32,12 @@ h1 {
     font-size: 2rem;
 }
 
+/* form container */
 form {
     margin: 25px 0;
 }
 
+/* search ingredients button */
 #ingredient-input {
     background-color: #ffffffcc;
     border: none;
@@ -44,6 +46,7 @@ form {
     border-radius: 2px;
 }
 
+/* submit ingredients button */
 #ingredient-submit {
     background-color: #ffffffe6;
     color: #253237;
@@ -53,6 +56,7 @@ form {
     border-radius: 2px;
 }
 
+/* get recipes button */
 #btn {
     margin: 20px;
     padding: 15px 60px;
