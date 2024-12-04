@@ -46,12 +46,14 @@ ul {
 
 ul li {
     display: flex;
-    align-items:last baseline;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     width: 150px;
     height: 150px;
     background: #EEEDED;
     margin: 10px;
+    padding-top: 5px;
     border-radius: 5px;
     font-weight: 400;
 }
@@ -60,4 +62,8 @@ ul li a {
     text-decoration: none;
     color: #000000;
     margin-bottom: 8px;
+}
+
+.icon {
+    width: 90px;
 }
