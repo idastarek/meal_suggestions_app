@@ -4,56 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food suggestion</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/food_item.css">
+    <!-- linking fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="color_area_dish" class="color_area">
-        <div class="colored_area_text">
+    <div id="container">
+        <div id="color-area">
             <h1>Lentil bolognese</h1>
-        </div>
-        <div id="food_heart_pics">
-            <img src="../images/spaghetti.png" alt="Lentil bolognese picture" width="30%">
-            <div id="heart_emoji">
-                <img src="../images/heart(3).png" alt="heart emoticon" width="10%">
+            <div id="imgs-container">
+                <img id="food-item" src="../images/spaghetti.png" alt="Lentil bolognese picture">
+                <img id="heart-emoji" src="../images/heart(3).png" alt="heart emoticon">
             </div>
         </div>
-    </div>
-    <div id="ingredients_substitutes">
-        <div class="dish_indented_text">
-            <h2>Ingredients</h2>
-        </div>
-        <div id="ingredients_list" class="list">
-            <ul>
-                <li> 250g pasta</li>
-                <li>250g brown lentils</li>
-                <li>1 white onion</li>
-                <li>1 can canned tomatos</li>
-                <li>basil</li>
-                <li>salt and pepper</li>
-            </ul>
-        </div>
-        <div class="dish_indented_text">
-            <h2>Substitutes</h2>
-        </div>
-        <div id="substitutes" class="list">
-            <ul>
-                <li></li>
-                <li>250g green lentils</li>
-                <li>any onion</li>
-                <li>fresh tomatos, passata</li>
-                <li>basil</li>
-                <li>salt and pepper</li>
-            </ul>
-        </div>
-    </div>
-    <div class="dish_indented_text">
-        <h2>Preparation</h2>
-    </div>
-    <div id="instructions" class="list">
-        <ol>
-            <li>Cook the pasta</li>
-            <li>Dice the onion and fry on a touch of oil</li>
-        </ol>
+    <div id="ingredients-container">
+        <h2>Ingredients</h2>
+        <ul id="ingredients-list" class="list">
+            <li> 250g pasta</li>
+            <li>250g brown lentils</li>
+            <li>1 white onion</li>
+            <li>1 can canned tomatos</li>
+            <li>basil</li>
+            <li>salt and pepper</li>
+        </ul>
+        <h2>Substitutes</h2>
+        <ul id="substitutes" class="list">
+            <li>250g green lentils</li>
+            <li>any onion</li>
+            <li>fresh tomatos, passata</li>
+            <li>basil</li>
+            <li>salt and pepper</li>
+        </ul>
+    <h2>Preparation</h2>
+    <ol id="instructions" class="list">
+        <li>Cook the pasta</li>
+        <li>Dice the onion and fry on a touch of oil</li>
+    </ol>
     </div>
 </body>
 </html>
