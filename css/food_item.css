@@ -60,6 +60,7 @@ h1 {
 h2 {
     font-weight: 600;
     margin-bottom: 0px;
+    color: #1b263b;
 }
 
 #ingredients-container ul, ol {
@@ -71,5 +72,6 @@ h2 {
 
 #ingredients-container ul, ol, li, ol {
     font-weight: 400;
+    color: #1b263b;
 }
 
