@@ -1,0 +1,12 @@
+  [
+    {
+      "name": "Caprese Salad",
+      "ingredients": ["tomato", "cheese", "basil", "olive oil"],
+      "instructions": "Slice tomatoes and cheese. Arrange with basil and drizzle olive oil."
+    },
+    {
+      "name": "Tomato Soup",
+      "ingredients": ["tomato", "onion", "garlic", "cream"],
+      "instructions": "Cook tomatoes, onion, and garlic. Blend and add cream."
+    }
+  ]

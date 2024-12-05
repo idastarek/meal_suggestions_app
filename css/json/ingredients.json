@@ -1,0 +1,10 @@
+[
+    {
+      "name": "tomato",
+      "imageURL": "https://example.com/images/tomato.jpg"
+    },
+    {
+      "name": "cheese",
+      "imageURL": "https://example.com/images/cheese.jpg"
+    }
+  ]
